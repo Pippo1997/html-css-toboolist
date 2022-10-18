@@ -7,9 +7,33 @@ h1{
 
 /* inizo main */
 main{
+    background-color: rgb(233, 244, 251);
+}
+
+.conteiner{
     width: 70%;
     margin: auto;
     margin-top: 70px;
 }
 
+.botton{
+    background-color: white;
+}
 
+.botton_task{
+    background-color: rgb(30, 157, 200);
+    color: white;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.botton_section{
+    background-color: white;
+    color: gray;
+    border: 1px solid #e7e7e7;
+    border-radius: 5%;
+    text-align: center;
+    padding: 5px 10px;
+}
