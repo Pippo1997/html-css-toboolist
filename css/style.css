@@ -10,12 +10,12 @@ h1{
 /* inizo main */
 main{
     background-color: rgb(233, 244, 251);
+    margin-top: 20px;
 }
 
 .conteiner{
     width: 70%;
     margin: auto;
-    margin-top: 70px;
 }
 
 .botton{
