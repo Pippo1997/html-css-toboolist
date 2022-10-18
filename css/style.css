@@ -1,0 +1,15 @@
+/* inizio header */
+h1{
+    display: inline;
+    font-family:'Courier New', Courier, monospace;
+}
+/* fine header */
+
+/* inizo main */
+main{
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+
