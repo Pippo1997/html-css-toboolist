@@ -20,6 +20,14 @@ main{
 
 .botton{
     background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.List{
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .botton_task{
@@ -40,14 +48,13 @@ main{
     padding: 5px 10px;
 }
 
-.List{
-    background-color: white;
-}
-
 ul{
     margin: 30px 15px;
     list-style-type: none;
     line-height: 40px;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
 }
 
 /* utili */
@@ -121,3 +128,5 @@ ul{
     padding: 5px 10px;
     font-size: 10px;
 }
+
+/* fine main */
