@@ -47,21 +47,77 @@ main{
 ul{
     margin: 30px 15px;
     list-style-type: none;
+    line-height: 40px;
 }
 
 /* utili */
+
+.done::before{
+    content: '\2705'
+}
+
+.not::before{
+    content: '\274C'
+}
 
 .editorial{
     background-color: rgb(30, 157, 200);
     color: white;
     border: none;
-    border-radius: 5%;
+    border-radius: 12px;
     text-align: center;
     padding: 5px 10px;
     font-size: 10px;
 }
 
-.done::before{
-    content: '\2705'
+/* fine utili */
 
+.Q1{
+    background-color: rgb(101, 9, 101);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.Recruiting{
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.Mobile{
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.Website{
+    background-color: rgb(206, 75, 141);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.Sales{
+    background-color: rgb(83, 244, 83);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 10px;
 }
