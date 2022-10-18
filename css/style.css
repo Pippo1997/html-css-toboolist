@@ -21,7 +21,7 @@ main{
 .botton{
     background-color: white;
     padding: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 .List{
@@ -52,7 +52,6 @@ ul{
     margin: 30px 15px;
     list-style-type: none;
     line-height: 40px;
-    list-style-position: outside;
     margin: 0;
     padding: 0;
 }
