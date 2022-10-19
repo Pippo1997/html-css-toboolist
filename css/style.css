@@ -9,10 +9,19 @@
 
 header{
     background-color: white;
+    height: 70px;
+    padding: 10px 25px;
 }
 
-h1{
-    display: inline;
+.logo{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo_text{
+    font-size: 30px;
+    vertical-align: middle;
+    font-weight: bold;
 }
 
 /* fine header */
@@ -20,7 +29,7 @@ h1{
 /* inizo main */
 
 body{
-    background-color: rgb(233, 244, 251);
+    background-color: #f6f8f9;
 }
 
 .conteiner{
