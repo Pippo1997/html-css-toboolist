@@ -86,8 +86,9 @@ ul{
     height: 15px;
     margin-right: 10px;
     border-radius: 50%;
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
+    line-height: 15px;
 
 }
 
@@ -98,7 +99,7 @@ ul{
 }
 
 .not::before{
-    content: '\2713';
+    content: '\2573';
     border: 1px solid red ;
     color: red;
 }
@@ -136,7 +137,7 @@ ul{
 }
 
 .Mobile{
-    background-color: orangered;
+    background-color: rgb(243, 107, 58);
     color: white;
     border: none;
     border-radius: 12px;
